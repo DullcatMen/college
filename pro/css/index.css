@@ -1,0 +1,166 @@
+.main {
+  width: 100%;
+}
+.main .bannerBox {
+  width: 100%;
+  position: relative;
+}
+.main .bannerBox .banner {
+  position: relative;
+  width: 100%;
+  height: 650px;
+  box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.3);
+}
+.main .bannerBox .banner .bigImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.main .bannerBox .banner .bigImg.br {
+  background-image: url("../img/big-1.png");
+}
+.main .bannerBox .banner .bigImg.by {
+  background-image: url("../img/big-2.png");
+}
+.main .bannerBox .banner .bigImg.bb {
+  background-image: url("../img/big-3.png");
+}
+.main .bannerBox .banner .bigImg.show {
+  z-index: 1;
+  opacity: 1;
+  transition: all 1s;
+}
+.main .bannerBox .imgBtn {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 3;
+  width: 100%;
+  height: 200px;
+  background-color: rgba(0,0,0,0.6);
+}
+.main .bannerBox .imgBtn .btnBox {
+  width: 100%;
+  height: 200px;
+  padding-top: 40px;
+}
+.main .bannerBox .imgBtn .btnBox .minImg {
+  float: left;
+  width: 180px;
+  height: 120px;
+  margin: 0 70px 0 70px;
+}
+.main .bannerBox .imgBtn .btnBox .minImg .resultBox {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.3);
+}
+.main .bannerBox .imgBtn .btnBox .minImg .resultBox.relative {
+  background-color: rgba(0,0,0,0);
+  box-shadow: 0 0 20px 3px rgba(255,255,255,0.3);
+}
+.main .bannerBox .imgBtn .btnBox .minImg.red {
+  background-image: url("../img/min-1.png");
+}
+.main .bannerBox .imgBtn .btnBox .minImg.yellow {
+  background-image: url("../img/min-2.png");
+}
+.main .bannerBox .imgBtn .btnBox .minImg.blue {
+  background-image: url("../img/min-3.png");
+}
+.main .itemBox {
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  overflow: hidden;
+}
+.main .itemBox .items {
+  float: left;
+  margin-left: 15px;
+  width: 300px;
+}
+.main .itemBox .items .itemImg {
+  display: block;
+  width: 300px;
+  overflow: hidden;
+}
+.main .itemBox .items .itemImg.p1 {
+  border-bottom: 5px solid #e13e59;
+}
+.main .itemBox .items .itemImg.p2 {
+  border-bottom: 5px solid #ed9e21;
+}
+.main .itemBox .items .itemImg.p3 {
+  border-bottom: 5px solid #f884cb;
+}
+.main .itemBox .items .itemText {
+  position: relative;
+  width: 300px;
+  height: 190px;
+  padding-top: 28px;
+}
+.main .itemBox .items .itemText .textTop {
+  width: 100%;
+  overflow: hidden;
+}
+.main .itemBox .items .itemText .textTop .iconNews {
+  float: left;
+  width: 20px;
+  height: 16px;
+}
+.main .itemBox .items .itemText .textTop .text {
+  float: left;
+  margin-left: 12px;
+  line-height: 16px;
+  font-size: 14px;
+  color: #014145;
+}
+.main .itemBox .items .itemText .textTitle {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+  overflow: hidden;
+  font-size: 14px;
+  color: #014145;
+  font-weight: bold;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.main .itemBox .items .itemText .textTitle:hover {
+  text-decoration: underline;
+}
+.main .itemBox .items .itemText .mainText {
+  margin-top: 8px;
+  width: 100%;
+  overflow: hidden;
+  font-size: 12px;
+  color: #014145;
+}
+.main .itemBox .items .itemText .itemBottem {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.main .itemBox .items .itemText .itemBottem .textMore {
+  display: block;
+  float: left;
+  font-size: 14px;
+  color: #830000;
+}
+.main .itemBox .items .itemText .itemBottem .textMore:hover {
+  text-decoration: underline;
+}
+.main .itemBox .items .itemText .itemBottem .iconMore {
+  float: left;
+  margin-left: 7px;
+  margin-top: 5px;
+  width: 14px;
+  height: 14px;
+}

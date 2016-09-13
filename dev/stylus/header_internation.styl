@@ -1,0 +1,184 @@
+.clearFloat
+	width 0
+	height 0
+	clear both
+.validArea
+	width 960px
+	margin 0 auto
+	position relative
+body
+	font-size 14px
+	line-height 1.7
+	header
+		width 100%
+		.topColumn
+			width 100%
+			height 40px
+			background-color #005359
+			.logIn
+				float left
+				.logInIcon
+					display block
+					float left
+					width 40px
+					height 40px
+					background-color #014145
+					background-image url(../img/logInIcon.png)
+					background-repeat no-repeat
+					background-position center
+				.logInText
+					display block
+					float left
+					line-height 40px
+					padding 0 10px
+					color #fff
+					text-align center
+					&:hover
+						background-color #013a3e
+			.searchBox
+				float right
+				.bgBox
+					float left
+					width 150px
+					height 40px
+					background-color #013a3e
+					.searchText
+						padding 5px 10px
+						font-size 13px
+						color #222
+						width 140px
+						height 30px
+						margin-top 5px
+						margin-left 5px
+						background-color #e1eaf2
+						transition all .3s ease-in-out
+						&:focus
+							background-color #fff
+							box-shadow inset 0 1px 3px rgba(0,0,0,.2)
+							transition all .3s ease-in-out
+				.searchBtn
+					float left
+					width 40px
+					height 40px
+					border 2px solid transparent
+					background-color #014145
+					background-image url(../img/searchIcon.png)
+					background-repeat no-repeat
+					background-position center
+					transition all .2s ease-in-out
+					cursor pointer
+					&:hover
+						border 2px solid #000
+						background-color #fff
+						background-image url(../img/searchIcon-h.png)
+						transition all .2s ease-in-out
+			.language
+				float right
+				margin-right 60px
+				font-size 13px
+				color #fff
+				height 40px
+				line-height 40px
+				padding 0 10px
+				text-align center
+				&:hover
+					background-color #013a3e
+					
+		.topMain
+			width 100%
+			height 200px
+			background-color #fff
+			.logo
+				display block
+				float left
+				width 301px
+				height 87px
+				margin-top 60px
+				background-image url(../img/logo-internation.png)
+				background-repeat no-repeat
+			.nav
+				width 500px
+				float right
+				margin-top 50px
+				background-color #000
+				position relative
+				.hoverBox
+					float left
+					.navLi
+						display block
+						width 100px
+						height 100px
+						color #fff
+						text-align center
+						background-color #03646a
+						transition all .2s ease-in-out
+						padding-top 30px
+						&.especial
+							background-color #014145
+						.liIcon
+							display block
+							width 19px
+							height 10px
+							background-image url(../img/liIcon.png)
+							background-repeat no-repeat
+							margin 14px auto 0
+						&:hover
+							background-color #014145
+							transition all .2s ease-in-out
+					.dropDown
+						position absolute
+						z-index 4
+						top 100px
+						left 0
+						width 500px
+						display none
+						.dropList
+							float left
+							width 200px
+							.dropLi
+								width 100px
+								height 40px
+								float left
+								background-color #03646a
+								color #fff
+								font-size 14px
+								line-height 40px
+								text-align center
+								&:hover
+									background-color #014145
+						.rightBox
+							position relative
+							float left
+							width 300px
+							height 160px
+							img
+								width 260px
+								margin-top 8px
+								margin-left 20px
+							.dropMore
+								display block
+								position absolute
+								right 10px
+								bottom 20px
+								color #fff
+								width 80px
+								height 25px
+								line-height 25px
+								text-align center
+								font-size 12px
+								background-color #009fab
+								box-shadow 1px 1px 3px 1px rgba(0,0,0,.2)
+						&.show
+							display block
+						&.x1
+							background-color #32878c
+						&.x2
+							background-color #666
+							display none
+						&.x3
+							background-color #999
+							display none
+						&.x4
+							background-color #ccc
+							display none
+					

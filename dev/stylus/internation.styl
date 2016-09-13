@@ -1,0 +1,147 @@
+@keyframes sildeOut_toLeft
+	from
+		left 0
+	to
+		left -960px
+@keyframes sildeIn_toLeft
+	from
+		left 960px
+	to
+		left 0
+		
+@keyframes sildeOut_toRight
+	from
+		left 0
+	to
+		left 960px
+@keyframes sildeIn_toRight
+	from
+		left -960px
+	to
+		left 0
+	
+.main_internation
+	width 100%
+	padding-bottom 90px
+	.bannerBg
+		width 100%
+		height 484px
+		background-color #047e86
+		.bannerInt
+			position relative
+			width 960px
+			height 484px
+			margin  0 auto
+			background-color #000
+			overflow hidden
+			.banner-img-box
+				width 100%
+				height 100%
+				position absolute
+				top 0
+				left 0
+				.bImgs
+					width 960px
+					height 484px
+					position absolute
+					top 0
+					&.outStage_tl
+						animation sildeOut_toLeft 1s forwards
+					&.inStage_tl
+						animation sildeIn_toLeft 1s forwards
+					&.outStage_tr
+						animation sildeOut_toRight 1s forwards
+					&.inStage_tr
+						animation sildeIn_toRight 1s forwards
+					&.img1
+						left 0
+						background-image url("../img/img1.png")
+					&.img2
+						left 960px
+						background-image url("../img/img2.png")
+			.lr-btn-box
+				width 120px
+				position absolute
+				bottom 20px
+				left 420px
+				z-index 3
+				.iconLeft
+					display block
+					float left
+					width 35px
+					height 35px
+					background-image url(../img/left-50.png)
+					&:hover
+						background-image url(../img/left-100.png)
+				.iconRight
+					display block
+					float right
+					width 35px
+					height 35px
+					background-image url(../img/right-50.png)
+					&:hover
+						background-image url(../img/right-100.png)
+	.w1100
+		width 1100px
+		overflow hidden
+		margin 0 auto
+		.int-itemBox
+			width 100%
+			overflow hidden
+			margin-top 90px
+			.headNav
+				float left
+				width 275px
+				height 330px
+				background-color #000
+				color #fff
+				.nav-top
+					width 100%
+					height 50px
+					background-color #00494e
+					font-size 18px
+					line-height 50px
+					text-align center
+				.nav-li
+					position relative
+					display block
+					width 100%
+					height 70px
+					background-color #047e86
+					line-height 70px
+					text-align center
+					font-size 16px
+					&:hover
+						background-color #01676e
+					&.onLi
+						background-color #01676e
+					i
+						width 7px
+						height 12px
+						position absolute
+						top 29px
+						right 25px
+						background-image url(../img/iconr.png)
+			.intItems
+				position relative
+				display block
+				float left
+				width 275px
+				height 330px
+				img
+					display block
+				&:hover .hoverBox
+					background-image url(../img/hover-img.png)
+					opacity .8
+					transition all 1s
+				.hoverBox
+					width 100%
+					height 100%
+					position absolute
+					top 0
+					left 0
+					z-index 3	
+				
+			
+		
+		

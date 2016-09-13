@@ -1,0 +1,266 @@
+.main_login {
+  width: 100%;
+  overflow: hidden;
+}
+.main_login .topBg {
+  width: 100%;
+  overflow: hidden;
+}
+.main_login .topBg img {
+  display: block;
+  width: 100%;
+}
+.main_login .bottomBox {
+  width: 100%;
+}
+.main_login .bottomBox .outerBox {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+  top: -60px;
+}
+.main_login .bottomBox .outerBox .loginBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 33;
+  width: 230px;
+  height: 380px;
+  background-color: #00747c;
+}
+.main_login .bottomBox .outerBox .loginBox .topBox {
+  width: 100%;
+  height: 60px;
+  background-color: #009fab;
+  color: #fff;
+  font-size: 20px;
+  line-height: 60px;
+  padding-left: 40px;
+}
+.main_login .bottomBox .outerBox .loginBox .loginNav {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  display: block;
+  padding-left: 40px;
+  line-height: 60px;
+  color: #fff;
+  font-size: 16px;
+  background-color: #03646a;
+}
+.main_login .bottomBox .outerBox .loginBox .loginNav:hover {
+  background-color: #014145;
+}
+.main_login .bottomBox .outerBox .loginBox .loginNav.student .iconS {
+  width: 18px;
+  height: 18px;
+  background-image: url("../img/iconS.png");
+  position: absolute;
+  top: 21px;
+  left: 10px;
+}
+.main_login .bottomBox .outerBox .loginBox .loginNav.teacher .iconT {
+  width: 15px;
+  height: 17px;
+  background-image: url("../img/iconT.png");
+  position: absolute;
+  top: 21px;
+  left: 10px;
+}
+.main_login .bottomBox .outerBox .loginBox .loginNav .iconr {
+  width: 7px;
+  height: 12px;
+  background-image: url("../img/iconr.png");
+  position: absolute;
+  top: 25px;
+  right: 20px;
+}
+.main_login .bottomBox .outerBox .loginBox .inputBox {
+  width: 100%;
+  overflow: hidden;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.main_login .bottomBox .outerBox .loginBox .inputBox .topTxt {
+  color: #fff;
+  font-size: 16px;
+}
+.main_login .bottomBox .outerBox .loginBox .inputBox .inputBlock {
+  overflow: hidden;
+  margin-top: 14px;
+}
+.main_login .bottomBox .outerBox .loginBox .inputBox .inputBlock .iconBox {
+  float: left;
+  width: 35px;
+  height: 35px;
+  background-color: #03646a;
+}
+.main_login .bottomBox .outerBox .loginBox .inputBox .inputBlock .iconBox.iuser {
+  background-image: url("../img/icon-user.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.main_login .bottomBox .outerBox .loginBox .inputBox .inputBlock .iconBox.ipass {
+  background-image: url("../img/icon-lock.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.main_login .bottomBox .outerBox .loginBox .inputBox .inputBlock .inputs {
+  float: left;
+  width: 165px;
+  height: 35px;
+  background-color: #fff;
+  padding-left: 12px;
+  font-size: 14px;
+}
+.main_login .bottomBox .outerBox .loginBox .inputBox .btnLogin {
+  display: block;
+  margin-top: 12px;
+  width: 200px;
+  height: 35px;
+  background-color: #03646a;
+  color: #fff;
+  font-size: 14px;
+  line-height: 35px;
+  text-align: center;
+}
+.main_login .bottomBox .outerBox .loginBox .inputBox .btnLogin:hover {
+  background-color: #014145;
+}
+.main_login .bottomBox .outerBox .rightPart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 650px;
+  height: 600px;
+}
+.main_login .bottomBox .outerBox .rightPart .rightTop {
+  color: #fff;
+  width: 100%;
+  height: 60px;
+  background-color: #009fab;
+}
+.main_login .bottomBox .outerBox .rightPart .rightTop .rTip {
+  float: left;
+  font-size: 20px;
+  width: 100px;
+  height: 60px;
+  background-color: #017980;
+  line-height: 60px;
+  text-align: center;
+  margin-left: 40px;
+}
+.main_login .bottomBox .outerBox .rightPart .rightTop .rNav {
+  float: right;
+  line-height: 60px;
+  font-size: 12px;
+  margin-right: 20px;
+}
+.main_login .bottomBox .outerBox .rightPart .rightTop .rNav a:hover {
+  text-decoration: underline;
+}
+.main_login .bottomBox .outerBox .rightPart .rightBottom {
+  width: 100%;
+  overflow: hidden;
+  padding-left: 40px;
+  padding-top: 50px;
+}
+.main_login .bottomBox .outerBox .rightPart .rightBottom .message {
+  width: 100px;
+  height: 35px;
+  border-left: 2px solid #014145;
+  line-height: 35px;
+  text-align: center;
+  color: #014145;
+  font-size: 18px;
+}
+.main_login .bottomBox .outerBox .rightPart .rightBottom .btnBox {
+  overflow: hidden;
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+.main_login .bottomBox .outerBox .rightPart .rightBottom .btnBox .btns {
+  display: block;
+  float: left;
+  width: 80px;
+  height: 35px;
+  line-height: 35px;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  background-color: #03646a;
+}
+.main_login .bottomBox .outerBox .rightPart .rightBottom .btnBox .btns:hover {
+  background-color: #014145;
+}
+.main_login .bottomBox .outerBox .rightPart .rightBottom .btnBox .btns.clickOn {
+  background-color: #014145;
+}
+.main_login .bottomBox .outerBox .rightPart .rightBottom .list-box {
+  width: 590px;
+  overflow: hidden;
+  display: none;
+}
+.main_login .bottomBox .outerBox .rightPart .rightBottom .list-box.liShow {
+  display: block;
+}
+.main_login .bottomBox .outerBox .rightPart .rightBottom .list-box .list-items {
+  overflow: hidden;
+  margin-top: 10px;
+  width: 500px;
+  height: 35px;
+  color: #262626;
+  font-size: 12px;
+  border-bottom: 1px solid #c9c9c9;
+}
+.main_login .bottomBox .outerBox .rightPart .rightBottom .list-box .list-items .leftTtile {
+  display: block;
+  float: left;
+  line-height: 35px;
+}
+.main_login .bottomBox .outerBox .rightPart .rightBottom .list-box .list-items .leftTtile:hover {
+  text-decoration: underline;
+}
+.main_login .bottomBox .outerBox .rightPart .rightBottom .list-box .list-items .rightDate {
+  float: right;
+  line-height: 35px;
+}
+.main_login .bottomBox .outerBox .rightPart .rightBottom .list-box .list-items.lookMore {
+  height: 65px;
+}
+.main_login .bottomBox .outerBox .rightPart .rightBottom .list-box .list-items.lookMore i {
+  width: 12px;
+  height: 12px;
+  display: block;
+  float: right;
+  margin-left: 10px;
+  margin-top: 11px;
+  background-image: url("../img/icon-lmore.png");
+}
+.main_login .bottomBox .outerBox .rightPart .rightBottom .partBox {
+  width: 500px;
+  height: 90px;
+  overflow: hidden;
+  border-bottom: 1px solid #c9c9c9;
+}
+.main_login .bottomBox .outerBox .rightPart .rightBottom .partBox .message.bot {
+  float: left;
+  margin-top: 28px;
+}
+.main_login .bottomBox .outerBox .rightPart .rightBottom .partBox .message.bot.servise {
+  width: 120px;
+}
+.main_login .bottomBox .outerBox .rightPart .rightBottom .partBox .li-partBox {
+  float: left;
+  margin-left: 30px;
+  color: #262626;
+  line-height: 90px;
+  font-size: 12px;
+}
+.main_login .bottomBox .outerBox .rightPart .rightBottom .partBox .li-partBox.serviseP {
+  margin-left: 10px;
+}
+.main_login .bottomBox .outerBox .rightPart .rightBottom .partBox .li-partBox a:hover {
+  text-decoration: underline;
+}
